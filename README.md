@@ -12,8 +12,8 @@ A robust Spring Boot REST API that transforms long, cumbersome URLs into shorten
 
 ## 🛠️ Tech Stack
 
-* **Java 17**
-* **Spring Boot 3.x**
+* **Java 25**
+* **Spring Boot 4.0.1**
 * **Spring Data JPA**
 * **Gradle** (Build Tool)
 * **Lombok** (For boilerplate reduction)
@@ -34,7 +34,7 @@ The project follows a clean layered architecture as seen in the source tree:
 ## 🚦 Getting Started
 
 ### Prerequisites
-* JDK 17
+* JDK 25
 * A configured IDE (IntelliJ IDEA or VS Code)
 
 ### Run the Application
@@ -60,8 +60,8 @@ The server will start at `http://localhost:8080`.
 
 ```json
 {
-  "originalUrl": "[https://www.extremely-long-website-example.com/data/12345](https://www.extremely-long-website-example.com/data/12345)",
-  "validity": "2026-12-31T23:59:59"
+   "originalUrl":"https://abusaeed2433.github.io/java-in-readme-site/",
+   "validity":"2026-01-10T15:50:50"
 }
 
 ```
@@ -70,9 +70,9 @@ The server will start at `http://localhost:8080`.
 
 ```json
 {
-  "shortUrl": "http://localhost:8080/r/A1b2C3d4E",
-  "originalUrl": "[https://www.extremely-long-website-example.com/data/12345](https://www.extremely-long-website-example.com/data/12345)",
-  "validity": "2026-12-31T23:59:59"
+    "shortUrl": "http://localhost:8080/r/dnRwDnzZl",
+    "originalUrl": "https://abusaeed2433.github.io/java-in-readme-site/",
+    "validity": "2026-01-10T15:50:50"
 }
 
 ```
@@ -85,8 +85,8 @@ The server will start at `http://localhost:8080`.
 
 ```json
 {
-  "originalUrl": "[https://www.extremely-long-website-example.com/data/12345](https://www.extremely-long-website-example.com/data/12345)",
-  "validity": "2026-12-31T23:59:59"
+    "originalUrl": "https://abusaeed2433.github.io/java-in-readme-site/",
+    "validity": "2026-01-10T15:50:50"
 }
 
 ```
